@@ -1,0 +1,86 @@
+header,
+section,
+hgroup {
+    display: block;
+}
+
+section {
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(202, 28, 28);
+    font: 20px tahoma;
+    color: white;
+    border-radius: 5px;
+    margin: 0%;
+    padding: 20px;
+}
+
+table,
+tr,
+th,
+td {
+    padding-right: 100px;
+}
+
+th {
+    width: 200px;
+    padding-left: 15px
+}
+
+tr {
+    padding-left: 100px
+}
+
+#amount {
+    text-align: center;
+    font: bold 30px verdana;
+    color: rgb(202, 28, 28);
+}
+
+#section-1 {
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 10px;
+    background-color: white;
+    -webkit-box-shadow: rgba(110, 110, 110, .5) 7px 7px 10px;
+}
+
+.terms {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#body {
+    margin: 5% 30%;
+}
+
+#topmenu {
+    background: rgb(252, 236, 11);
+    text-align: center;
+    display: block;
+}
+
+#button-1 {
+    background-color: rgb(202, 28, 28);
+    border-radius: 17px;
+    border: 1px solid white;
+    font: bold 16px verdana;
+    padding: 2.5%;
+    color: white;
+    margin-left: 250px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#button-2 {
+    background-color: rgb(202, 201, 201);
+    border-radius: 17px;
+    border: 1px solid white;
+    font: bold 16px verdana;
+    padding: 2.5%;
+    color: black;
+    margin-right: 200px;
+    margin-top: 20px;
+}

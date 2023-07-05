@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Page</title>
+    <link rel="stylesheet" href="cust.css" />
+    <script src="cust.js"></script>
+  </head>
+
+  <body
+    style="
+      background-image: url('https://e1.pxfuel.com/desktop-wallpaper/97/996/desktop-wallpaper-cristiano-ronaldo-iphone-rts-much-appreciated-cristiano-ronaldo-with-ucl-trophy.jpg');
+    "
+  >
+    <header>
+      <h1>
+        <a href="https://twitter.com/Youngrilex1" target="_blank">
+          <img
+            src="https://media.licdn.com/dms/image/C4D0BAQHz_wxqA6jGAA/company-logo_200_200/0/1611135069754?e=2147483647&v=beta&t=v0fI9OaLeHTGz0htma2Bt29nTf7Zo8QpCQt9-LlOxIc"
+            alt="Smiley face"
+            style="float: left; width: 50px; height: 50px"
+          /> </a
+        >Insurance
+      </h1>
+    </header>
+    <div id="body">
+      <section id="first">
+        <header>
+          <hgroup>
+            <h3>Dear Customer,</h3>
+            <h3>
+              Thanks for your interest in purchasing an insurance product.
+              Kindly find the details of your purchase below
+            </h3>
+          </hgroup>
+        </header>
+        <h2>QUOTE ID: 273765JJHG</h2>
+      </section>
+      <section id="section-1">
+        <table>
+          <tr style="padding-left: 20px">
+            <th style="padding: 20px">Product name</th>
+            <td style="padding: 20px">Comprehensive</td>
+          </tr>
+          <tr>
+            <th style="padding: 20px">Product Description</th>
+            <td style="padding: 20px">
+              Comprehensive motor @ 2% of vehicle cost Coverage for you: Theft,
+              accident damage, fire, towing services, Medical bills, flood,
+              strike, riot, civil commotion. Coverage for the other party:
+              Accidnetal damage, medical bills, life insurance benefit.
+            </td>
+          </tr>
+          <tr>
+            <th style="padding: 20px">Account number</th>
+            <td style="padding: 20px">******6756</td>
+          </tr>
+
+          <tr>
+            <th style="padding: 20px">Name of vehicle owner</th>
+            <td style="padding: 20px">Christain Smith</td>
+          </tr>
+          <tr>
+            <th style="padding: 20px">Vehicle Registration Number</th>
+            <td style="padding: 20px">AA345JGGH</td>
+          </tr>
+        </table>
+        <p id="amount">NGN1,000,000</p>
+      </section>
+
+      <div class="terms">
+        <input
+          type="checkbox"
+          id="terms"
+          value="yes/no"
+          onclick="myFunction()"
+        />
+
+        <label for="terms">
+          I agree to the
+          <span style="color: red">terms & conditions</span>
+        </label>
+      </div>
+      <input
+        type="button"
+        onclick="alert('Form submitted')"
+        value="DECLINE"
+        id="button-1"
+      />
+      <input
+        type="button"
+        onclick="alert('Form submitted')"
+        value="APPROVE"
+        id="button-2"
+        disabled
+      />
+    </div>
+  </body>
+</html>
